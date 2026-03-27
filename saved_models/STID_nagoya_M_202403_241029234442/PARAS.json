@@ -1,0 +1,15 @@
+{
+    "model": "STID",
+    "step": 12,
+    "batch_size": 32,
+    "dataset": "nagoya_M_202403",
+    "data_path": "./data/trainData/nagoya_m_202403.csv",
+    "null": 30.0,
+    "gpu": -1,
+    "verbose": 1,
+    "loss": "MAE",
+    "coeffcient": 0.01,
+    "epochs": 200,
+    "json": "./start.json",
+    "nodes": 4579
+}

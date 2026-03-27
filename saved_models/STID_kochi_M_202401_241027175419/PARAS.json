@@ -1,0 +1,15 @@
+{
+    "model": "STID",
+    "step": 12,
+    "batch_size": 32,
+    "dataset": "kochi_M_202401",
+    "data_path": "./data/trainData/kochi_m_202401.csv",
+    "null": 30.0,
+    "gpu": -1,
+    "verbose": 1,
+    "loss": "MAE",
+    "coeffcient": 0.01,
+    "epochs": 200,
+    "json": "./start.json",
+    "nodes": 2504
+}

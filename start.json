@@ -1,0 +1,24 @@
+{
+  "dataset": "nagoya",
+  "year": "2024",
+  "month": "03",
+  "input_path": "/data/xpop_mesh4_agg",
+  "output_path": "./data/oneDayData/",
+  "stid_path": "./data/trainData",
+  "data_type": "m",
+  "training_parameters": {
+    "step": 12,
+    "batch_size": 32,
+    "null": 30,
+    "gpu": -1,
+    "loss": "MAE",
+    "coeffcient": 0.01,
+    "epochs": 200
+  },
+  "inference_parameters": {
+    "model_path": "./saved_models/STID_nagoya_M_202403_241030132008",
+    "mesh_file": "./data/oneDayData/kochi/meshes.csv",
+    "data_path": "./data/testData/nagoya_l_202403.csv",
+    "output_path": "./results"
+  }
+}
